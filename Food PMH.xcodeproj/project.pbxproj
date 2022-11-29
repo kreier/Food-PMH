@@ -11,6 +11,10 @@
 		3964FC29293260A200110A7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3964FC28293260A200110A7C /* ContentView.swift */; };
 		3964FC2B293260A600110A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3964FC2A293260A600110A7C /* Assets.xcassets */; };
 		3964FC2E293260A600110A7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3964FC2D293260A600110A7C /* Preview Assets.xcassets */; };
+		3964FC352932650F00110A7C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3964FC342932650F00110A7C /* CircleImage.swift */; };
+		3964FC372932658B00110A7C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3964FC362932658B00110A7C /* MapView.swift */; };
+		3964FC3A293267A700110A7C /* foodplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3964FC39293267A700110A7C /* foodplace.swift */; };
+		3964FC3C293268CE00110A7C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3964FC3B293268CE00110A7C /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3964FC28293260A200110A7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3964FC2A293260A600110A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3964FC2D293260A600110A7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3964FC342932650F00110A7C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3964FC362932658B00110A7C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3964FC39293267A700110A7C /* foodplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodplace.swift; sourceTree = "<group>"; };
+		3964FC3B293268CE00110A7C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				3964FC26293260A200110A7C /* Food_PMHApp.swift */,
-				3964FC28293260A200110A7C /* ContentView.swift */,
+				3964FC342932650F00110A7C /* CircleImage.swift */,
+				3964FC39293267A700110A7C /* foodplace.swift */,
+				3964FC3B293268CE00110A7C /* ModelData.swift */,
+				3964FC382932659D00110A7C /* Views */,
 				3964FC2A293260A600110A7C /* Assets.xcassets */,
 				3964FC2C293260A600110A7C /* Preview Content */,
 			);
@@ -65,6 +76,15 @@
 				3964FC2D293260A600110A7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3964FC382932659D00110A7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3964FC28293260A200110A7C /* ContentView.swift */,
+				3964FC362932658B00110A7C /* MapView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3964FC29293260A200110A7C /* ContentView.swift in Sources */,
+				3964FC372932658B00110A7C /* MapView.swift in Sources */,
 				3964FC27293260A200110A7C /* Food_PMHApp.swift in Sources */,
+				3964FC352932650F00110A7C /* CircleImage.swift in Sources */,
+				3964FC3A293267A700110A7C /* foodplace.swift in Sources */,
+				3964FC3C293268CE00110A7C /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
