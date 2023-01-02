@@ -17,25 +17,25 @@ struct ContentView: View {
                 .offset(y: -130)
                 .padding(.bottom, -130)
             VStack(alignment: .leading) {
-                Text("Food PMH")
+                Text("Annam Gourmet Riverpark Premier")
                     .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(Color.green)
                     
                 HStack {
-                    Text("Joshua Tree National Park")
+                    Text("64-70 Nguyễn Đức Cảnh")
                         .font(.subheadline)
                     Spacer()
-                    Text("California")
+                    Text("Specialties")
                         .font(.subheadline)
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
                 Divider()
 
-                Text("About Turtle Rock")
+                Text("About Annam Gourmet")
                     .font(.title2)
-                Text("Descriptive text goes here.")
+                Text("This is a specialty restaurant, really appreciated by students, teachers and parents alike for their high quality food and wide variety of specialties from all around the world.")
             }
             .padding()
             Spacer()
